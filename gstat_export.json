@@ -2,15 +2,188 @@
   "CPU": {
     "UsagePercent": 0,
     "Cores": 4,
-    "Model": "unknown"
+    "Model": "Intel(R) Core(TM) i5-7300U CPU @ 2.60GHz"
   },
   "Memory": {
-    "Total": 0,
-    "Available": 0,
-    "Used": 0,
-    "UsedPercent": 0
+    "Total": 4040294400,
+    "Available": 3540217856,
+    "Used": 500076544,
+    "UsedPercent": 12.377230332522302
   },
-  "Disk": null,
-  "Network": null,
-  "Processes": null
+  "Disk": [
+    {
+      "Mountpoint": "/usr/lib/modules/6.6.114.1-microsoft-standard-WSL2",
+      "Total": 2020147200,
+      "Used": 0,
+      "Free": 2020147200,
+      "UsedPercent": 0
+    },
+    {
+      "Mountpoint": "/mnt/wsl",
+      "Total": 2020147200,
+      "Used": 4096,
+      "Free": 2020143104,
+      "UsedPercent": 1
+    },
+    {
+      "Mountpoint": "/usr/lib/wsl/drivers",
+      "Total": 307745517568,
+      "Used": 218954862592,
+      "Free": 88790654976,
+      "UsedPercent": 72
+    },
+    {
+      "Mountpoint": "/",
+      "Total": 1081101176832,
+      "Used": 3264253952,
+      "Free": 1022844567552,
+      "UsedPercent": 1
+    },
+    {
+      "Mountpoint": "/mnt/wslg",
+      "Total": 2020147200,
+      "Used": 36864,
+      "Free": 2020110336,
+      "UsedPercent": 1
+    },
+    {
+      "Mountpoint": "/usr/lib/wsl/lib",
+      "Total": 2020147200,
+      "Used": 0,
+      "Free": 2020147200,
+      "UsedPercent": 0
+    },
+    {
+      "Mountpoint": "/init",
+      "Total": 2015014912,
+      "Used": 2838528,
+      "Free": 2012176384,
+      "UsedPercent": 1
+    },
+    {
+      "Mountpoint": "/run",
+      "Total": 2020147200,
+      "Used": 507904,
+      "Free": 2019639296,
+      "UsedPercent": 1
+    },
+    {
+      "Mountpoint": "/run/lock",
+      "Total": 2020147200,
+      "Used": 0,
+      "Free": 2020147200,
+      "UsedPercent": 0
+    },
+    {
+      "Mountpoint": "/run/shm",
+      "Total": 2020147200,
+      "Used": 0,
+      "Free": 2020147200,
+      "UsedPercent": 0
+    },
+    {
+      "Mountpoint": "/mnt/wslg/versions.txt",
+      "Total": 2020147200,
+      "Used": 81920,
+      "Free": 2020065280,
+      "UsedPercent": 1
+    },
+    {
+      "Mountpoint": "/mnt/wslg/doc",
+      "Total": 2020147200,
+      "Used": 81920,
+      "Free": 2020065280,
+      "UsedPercent": 1
+    },
+    {
+      "Mountpoint": "/mnt/c",
+      "Total": 307745517568,
+      "Used": 218954862592,
+      "Free": 88790654976,
+      "UsedPercent": 72
+    },
+    {
+      "Mountpoint": "/mnt/d",
+      "Total": 203566346240,
+      "Used": 50426314752,
+      "Free": 153140031488,
+      "UsedPercent": 25
+    },
+    {
+      "Mountpoint": "/run/user/1000",
+      "Total": 404029440,
+      "Used": 20480,
+      "Free": 404008960,
+      "UsedPercent": 1
+    }
+  ],
+  "Network": [
+    {
+      "Name": "eth0",
+      "BytesSent": 1709961,
+      "BytesRecv": 129131361
+    }
+  ],
+  "Processes": [
+    {
+      "PID": 1,
+      "Name": "systemd",
+      "CPUPercent": 156,
+      "MemPercent": 0.3279602595296026
+    },
+    {
+      "PID": 46,
+      "Name": "systemd-journal",
+      "CPUPercent": 64,
+      "MemPercent": 0.4039943227899433
+    },
+    {
+      "PID": 96,
+      "Name": "systemd-udevd",
+      "CPUPercent": 40,
+      "MemPercent": 0.16605839416058396
+    },
+    {
+      "PID": 181,
+      "Name": "wsl-pro-service",
+      "CPUPercent": 34,
+      "MemPercent": 0.3431670721816707
+    },
+    {
+      "PID": 315,
+      "Name": "bash",
+      "CPUPercent": 33,
+      "MemPercent": 0.136455798864558
+    },
+    {
+      "PID": 362,
+      "Name": "systemd",
+      "CPUPercent": 33,
+      "MemPercent": 0.2869018653690187
+    },
+    {
+      "PID": 210,
+      "Name": "unattended-upgr",
+      "CPUPercent": 28,
+      "MemPercent": 0.5798864557988646
+    },
+    {
+      "PID": 186,
+      "Name": "rsyslogd",
+      "CPUPercent": 19,
+      "MemPercent": 0.15075020275750203
+    },
+    {
+      "PID": 179,
+      "Name": "systemd-logind",
+      "CPUPercent": 18,
+      "MemPercent": 0.22060016220600162
+    },
+    {
+      "PID": 152,
+      "Name": "systemd-resolve",
+      "CPUPercent": 18,
+      "MemPercent": 0.32309407948094077
+    }
+  ]
 }
