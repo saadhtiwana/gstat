@@ -1,0 +1,16 @@
+{
+  "CPU": {
+    "UsagePercent": 10,
+    "Cores": 4,
+    "Model": "Test CPU"
+  },
+  "Memory": {
+    "Total": 8000,
+    "Available": 4000,
+    "Used": 4000,
+    "UsedPercent": 50
+  },
+  "Disk": [],
+  "Network": [],
+  "Processes": []
+}

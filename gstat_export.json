@@ -1,0 +1,16 @@
+{
+  "CPU": {
+    "UsagePercent": 0,
+    "Cores": 4,
+    "Model": "unknown"
+  },
+  "Memory": {
+    "Total": 0,
+    "Available": 0,
+    "Used": 0,
+    "UsedPercent": 0
+  },
+  "Disk": null,
+  "Network": null,
+  "Processes": null
+}
